@@ -1,0 +1,47 @@
+[
+  {
+    "name": "coast",
+    "width": 1280,
+    "height": 1707
+  },
+  {
+    "name": "sunset",
+    "width": 1280,
+    "height": 1706
+  },
+  {
+    "name": "library",
+    "width": 1280,
+    "height": 1708
+  },
+  {
+    "name": "imperial",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "name": "museum",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "name": "camera",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "name": "red",
+    "width": 1280,
+    "height": 961
+  },
+  {
+    "name": "graduation",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "name": "speech",
+    "width": 1280,
+    "height": 960
+  }
+]
