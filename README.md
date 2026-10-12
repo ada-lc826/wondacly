@@ -18,6 +18,11 @@ npm run check
 - 项目分类与详情弹窗；研究摘要展开。
 - 九张照片，响应式 WebP 图片，PhotoSwipe 放大、滑动与键盘浏览。
 - 邮箱复制、英文 PDF 简历下载。
+- 首页照片切换和随机浏览；花园、海洋、玫瑰三套配色并保存偏好。
+- 可拖动、翻面的照片桌，支持指针操作和键盘移动。
+- 20 秒英文打字小游戏，展示速度、单词正确率和本机最高分。
+- [ItaWall](https://itawall.com/) 与 [千城纸屿](https://paperisle.org/) 项目入口及介绍。
+- 统一 SVG 图标，避免手机系统将符号渲染为 Emoji。
 - 手机、平板与桌面布局；键盘焦点、图片描述与减少动态效果支持。
 - 静态 HTML / CSS / JavaScript，无后端、数据库、第三方字体或 CDN 请求。
 
@@ -28,6 +33,8 @@ npm run check
 | `dist/index.html` | 英文内容、结构、搜索与分享元数据 |
 | `dist/app.js` | 中文内容、项目资料、交互与相册 |
 | `dist/style.css` | 排版、配色与响应式样式 |
+| `dist/play.js` / `dist/play.css` | 照片桌、打字游戏、主题和照片切换 |
+| `dist/icons.js` | 跨平台 SVG 图标 |
 | `dist/assets/` | 本地照片与图片尺寸清单 |
 | `dist/Emilie-Chen-CV.pdf` | 网站英文简历 |
 | `scripts/make-cv.py` | 使用 ReportLab 重新生成简历 |
@@ -50,7 +57,7 @@ PhotoSwipe 官方文档：https://photoswipe.com/getting-started/ 。其源码�
 
 ## 内容说明
 
-个人经历与项目描述来自本人提供的履历与项目材料。医疗旅行和智能助行项目为概念演示。Paper Isle 的旧演示离线，作为项目存档保留。Polestar 实习按证明日期列为 2023 年 8-9 月。
+个人经历与项目描述来自本人提供的履历与项目材料。医疗旅行和智能助行项目为概念演示。ItaWall 和 Paper Isle 使用本人补充的正式域名，描述依据对应页面。Polestar 实习按证明日期列为 2023 年 8-9 月。
 
 本仓库仅包含网站内容和网站用简历，不包含身份证、护照、电话、成绩单、推荐信或申请材料。
 

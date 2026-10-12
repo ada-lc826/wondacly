@@ -9,7 +9,7 @@ assert.equal(ids.length,new Set(ids).size,'Duplicate HTML IDs');
 const links=[...html.matchAll(/(?:href|src)="([^"]+)"/g)].map(m=>m[1]);
 for(const link of links){
  if(link.startsWith('#')) assert(ids.includes(link.slice(1)),'Missing section '+link);
- else if(!/^[a-z]+:/i.test(link)) assert(fs.existsSync(path.resolve(root,link)),'Missing local file '+link);
+ else if(!/^[a-z]+:/i.test(link)) assert(fs.existsSync(path.resolve(root,link.split('?')[0])),'Missing local file '+link);
 }
 for(const photo of JSON.parse(fs.readFileSync(path.join(root,'assets/photos.json'),'utf8'))){
  assert(photo.width>0&&photo.height>0,'Invalid photo dimensions');
